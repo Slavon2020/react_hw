@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  align-items: center;
+  &__link:not(:last-child) {
+    margin-right: 20px;
+  }
+  &__link {
+    color: white;
+    &:hover {
+      color: gold;
+    }
+  }
+}
+.active {
+  color: gold;
+  text-decoration: underline;
+}

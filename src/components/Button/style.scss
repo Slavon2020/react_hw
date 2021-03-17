@@ -1,0 +1,28 @@
+.action-btn {
+    width: 90px;
+    height: 30px;
+    color: white;
+    background: #484b5d;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.close-btn {
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.remove-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    &:hover {
+        background: gold;
+     }
+}
