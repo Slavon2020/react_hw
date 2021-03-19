@@ -1,0 +1,4 @@
+export const DATA_REQUEST = "DATA_REQUEST";
+export const DATA_REQUEST_SUCCESS = "DATA_REQUEST_SUCCESS";
+export const SET_ITEMS = "SET_ITEMS";
+export const SET_LOADING = "SET_LOADING";

@@ -5,13 +5,13 @@ import PropTypes from 'prop-types';
 import Modal from '../../components/Modal/Modal';
 import Button from '../../components/Button/Button';
 import {useDispatch, useSelector} from 'react-redux';
-import {setShowAddToCartModal} from '../../store/actions';
+import {setShowAddToCartModal} from '../../store/modal/actions';
 
 
 function CardsList(props) {
 	const dispatch = useDispatch();
-	const showAddToCartModal = useSelector(state => state.showAddToCartModal);
-	const art = useSelector(state => state.openedCardModal)
+	const showAddToCartModal = useSelector(state => state.modal.showAddToCartModal);
+	const art = useSelector(state => state.modal.openedCardModal)
 
 	const {items, toggleLocalStorage, show} = props
 

@@ -6,7 +6,7 @@ import Icon from '../Icon/Icon';
 import PropTypes from 'prop-types';
 import {useLocation} from 'react-router';
 import {useDispatch} from 'react-redux';
-import {setOpenedCardModal} from '../../store/actions';
+import {setOpenedCardModal} from '../../store/modal/actions';
 
 
 
