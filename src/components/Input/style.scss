@@ -1,0 +1,13 @@
+.input-wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}

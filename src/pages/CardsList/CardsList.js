@@ -6,12 +6,15 @@ import Modal from '../../components/Modal/Modal';
 import Button from '../../components/Button/Button';
 import {useDispatch, useSelector} from 'react-redux';
 import {setShowAddToCartModal} from '../../store/modal/actions';
+import {useLocation} from 'react-router';
+import AddressForm from '../../components/AddressForm/AddressForm';
 
 
 function CardsList(props) {
 	const dispatch = useDispatch();
 	const showAddToCartModal = useSelector(state => state.modal.showAddToCartModal);
 	const art = useSelector(state => state.modal.openedCardModal)
+	const location = useLocation();
 
 	const {items, toggleLocalStorage, show} = props
 
@@ -40,6 +43,7 @@ function CardsList(props) {
 
 	return (
 		<Fragment>
+			{location.pathname === '/cart' && itemsToShow.length > 0 && <AddressForm/>}
 			{itemsToShow && <div className='cards-list'>
 				{itemsToShow.map((item) => {
 					currentItem = item;
@@ -51,6 +55,8 @@ function CardsList(props) {
 					/>
 				})}
 			</div>}
+
+
 
 			{showAddToCartModal &&
 			<Modal
