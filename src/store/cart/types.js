@@ -1,0 +1,2 @@
+export const UPDATE_USER_ADDRESS = 'UPDATE_USER_ADDRESS';
+export const CLEAR_CART = "CLEAR_CART";

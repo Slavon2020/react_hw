@@ -1,3 +1,7 @@
+body {
+    overflow-y: scroll;
+}
+
 .app {
     width: 1280px;
     margin: 0 auto;
@@ -5,6 +9,13 @@
     flex-direction: column;
     font-family: sans-serif;
 }
+
 button:hover {
     cursor: pointer;
 }
+
+.withOutVerticalScroll {
+    margin-right: 20px;
+}
+
+

@@ -46,7 +46,7 @@ function Card(props) {
 					<img src={url} className='card__img' alt='sneakers'/>
 				</div>
 				<div className='card__info'>
-					<p className='card__title'>name: {name}</p>
+					<p className='card__title'>brend: {name}</p>
 					<p className='card__color'>color: {color}</p>
 					<p className='card__price'>price: {price}$</p>
 				</div>
