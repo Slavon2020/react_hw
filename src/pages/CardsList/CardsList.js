@@ -60,6 +60,7 @@ function CardsList(props) {
 
 			{showAddToCartModal &&
 			<Modal
+				data-testid='modal'
 				actions={[
 					<Button className={'action-btn'}
 					        text='Confirm'

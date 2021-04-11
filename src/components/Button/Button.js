@@ -8,7 +8,7 @@ function Button(props) {
 	const {backgroundColor, text, onClick, className, disabled} = props;
 
 	return (
-		<button disabled={disabled} className={className} style={{backgroundColor}} onClick={onClick}>{text}</button>
+		<button id='test-btn' disabled={disabled} className={className} style={{backgroundColor}} onClick={onClick}>{text}</button>
 	);
 }
 Button.propTypes = {

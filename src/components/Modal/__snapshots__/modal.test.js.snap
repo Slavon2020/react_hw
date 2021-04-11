@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Modal.js testing by snapshot in Modal.js 1`] = `
+<div>
+  <div
+    class="overlay"
+  />
+  <div
+    class="modal"
+  >
+    <div
+      class="modal-header"
+    >
+      <span
+        class="modal-header-text"
+      >
+        test-modal-header-text
+      </span>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <p
+        class="modal-text"
+      >
+        test-modal-text
+      </p>
+      <div
+        class="modal-buttons"
+      />
+    </div>
+  </div>
+</div>
+`;
